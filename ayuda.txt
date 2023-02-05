@@ -1,0 +1,12 @@
+Con este programa podras gestionar un gestor documental .
+
+La opcion 1 te permite crear los grupos y usuarios ademas de añadirle las horas de acesso .
+La opcion 2 te creara la carpeta Publico y ademas asignara los permisos a los grupos.
+La opcion 3 borra la carpeta Publico con todo su contenido ademas de los permisos asignados previamente.
+La opcion 4 borra los usuarios y los grupos creados con anterioridad
+La opcion 5 creara un proyecto compartido con el IES Politecnic y permitira que solo accedan en modo de lectura los usuarios que esten en un mismo curso , excepto los de DAM que podran acceder a todas con todos los permisos
+La opcion 6 borrara dicho proyecto compartido
+La opcion 7 muestra este cuadro de ayuda 
+La opcion S te permite salir del programa
+
+
