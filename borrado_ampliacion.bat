@@ -1,3 +1,4 @@
 @echo off
-RD /S E:\"I.E.S Politecnic"
+RD /S E:\Politecnic
 
+exit

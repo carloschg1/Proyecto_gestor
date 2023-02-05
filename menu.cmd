@@ -63,49 +63,49 @@ pause >null
 :: ###########################
 :opcion7
   echo "Bienvenido a la ayuda"
-  TYPE C:\Users\chernandez\Desktop\ayuda.txt
+  TYPE C:\Users\chernandez\Desktop\"Proyecto gestor"\ayuda.txt
   pause
   goto menu
 :opcion6
   echo "Has pulsado 6"
   echo "Borrando el proyecto compartido ..."
-  C:\Users\chernandez\Desktop\borrado_ampliacion.bat
+  Start C:\Users\chernandez\Desktop\"Proyecto gestor"\borrado_ampliacion.bat
   echo "Borrado del proyecto compartido completado"
   pause
   goto menu
 :opcion5
   echo "Has pulsado 5"
   echo "Creando el proyecto compartido ..."
-  C:\Users\chernandez\Desktop\ampliacion.bat
+  Start C:\Users\chernandez\Desktop\"Proyecto gestor"\ampliacion.bat
   echo "Creacion del proyecto compartido completada"
   pause
   goto menu
 :opcion4
   ECHO "Has pulsado 4"
   echo "Borrando todos los grupos y usurios ..."
-  C:\Users\chernandez\Desktop\borrado_usuarios.bat
+  Start C:\Users\chernandez\Desktop\"Proyecto gestor"\borrado_usuarios.bat
   echo "Borrando completado "
   pause
   goto menu
 :opcion3
   echo "Has pulsado 3"
   echo "Borrando el gestor docuemntal:"
-  C:\Users\chernandez\Desktop\borrado_proyecto.bat
+  Start C:\Users\chernandez\Desktop\"Proyecto gestor"\borrado_proyecto.bat
   echo Borrado del gestor documental completada"
   pause 
   goto menu
 :opcion2
   echo "Has pulsado 2"
   echo "Creando el gestor documental ..."
-  C:\Users\chernandez\Desktop\Acls.bat
+  Start C:\Users\chernandez\Desktop\"Proyecto gestor"\Acls.bat
   echo "Creacion del gestor documental completada"
   pause
   goto menu
 :opcion1
   echo "Has pulsado 1"
   echo "Creando todos los grupos y usurios ..."
-  C:\Users\chernandez\Desktop\usu_grup.bat
-  REM C:\Users\chernandez\Desktop\ocultar.bat
+  Start C:\Users\chernandez\Desktop\"Proyecto gestor"\usu_grup.bat
+  Start C:\Users\chernandez\Desktop\"Proyecto gestor"\ocultar.bat
   echo "Creacion de usuarios y grupos completada "
   goto menu
 :fin

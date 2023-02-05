@@ -70,7 +70,7 @@ net localgroup alummado_S alumnado /add
 net localgroup profesorado_S profesorado /add
 net localgroup administradores admin01 /add
 
-
+exit
 
 
 

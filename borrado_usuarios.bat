@@ -28,5 +28,8 @@ net localgroup 1BATCH_R /delete
 net localgroup 2BATCH_F /delete
 net localgroup 2BATCH_R /delete
 net localgroup 1DAM_F /delete
+net localgroup Publico_R /delete
 net localgroup alummado_S /delete
 net localgroup profesorado_S /delete
+
+exit
