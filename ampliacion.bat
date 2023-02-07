@@ -10,7 +10,7 @@ icacls E:\Politecnic /remove:g "Usuarios autentificados" /T
 
 icacls E:\Politecnic /GRANT Publico_R:(R)
 
-md E:\Politecnic\1ESO E:\Politecnic\2ESO E:\Politecnic\3ESO E:\Politecnic\4ESO EE:\Politecnic\1BACH E:\Politecnic\2BACH E:\Politecnic\1DAM   
+md E:\Politecnic\1ESO E:\Politecnic\2ESO E:\Politecnic\3ESO E:\Politecnic\4ESO E:\Politecnic\1BACH E:\Politecnic\2BACH E:\Politecnic\1DAM   
 
 icacls E:\Politecnic\1ESO /GRANT 1ESO_F:(OI)(CI)(R) /T
 icacls E:\Politecnic\2ESO /GRANT 2ESO_F:(OI)(CI)(R) /T
